@@ -1,17 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>brownbelt</groupId>
-    <artifactId>sillygames</artifactId>
-    <version>1.0</version>
-    <packaging>jar</packaging>
+      <groupId>brownbelt.sillysnakes</groupId>
+	  <artifactId>SillySnakes</artifactId>
+	  <version>1.0</version>
+	  <packaging>jar</packaging>
+
+	  <name>SillySnakes</name>
+  	  <url>http://maven.apache.org</url>
 
     <distributionManagement>
         <site>
-            <id>sillygames</id>
+            <id>sillysnakes</id>
             <url>scp://localhost/tmp/</url>
         </site>
     </distributionManagement>
@@ -26,7 +27,7 @@
         <checkstyle.maxAllowedViolations>500000</checkstyle.maxAllowedViolations>
         <checkstyle.failOnViolation>true</checkstyle.failOnViolation>
 
-        <mainClass>brownbelt.App</mainClass>
+        <mainClass>brownbelt.sillysnakes.SillySnakeApp</mainClass>
     </properties>
 
     <dependencies>

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>fr.uvsq.pglp</groupId>
-  <artifactId>roguelike</artifactId>
+  <groupId>brownbelt.sillysnakes</groupId>
+  <artifactId>SillySnakes</artifactId>
+  <name>SillySnakes</name>
   <version>1.0</version>
+  <url>http://maven.apache.org</url>
   <build>
     <sourceDirectory>src/main/java</sourceDirectory>
     <testSourceDirectory>src/test/java</testSourceDirectory>
@@ -152,17 +154,17 @@
   </dependencies>
   <distributionManagement>
     <site>
-      <id>roguelike</id>
+      <id>sillysnakes</id>
       <url>scp://localhost/tmp/</url>
     </site>
   </distributionManagement>
   <properties>
     <maven.compiler.release>17</maven.compiler.release>
     <checkstyle.failOnViolation>true</checkstyle.failOnViolation>
-    <mainClass>fr.uvsq.pglp.roguelike.Roguelike</mainClass>
+    <mainClass>brownbelt.sillysnakes.App</mainClass>
     <checkstyle.violationSeverity>warning</checkstyle.violationSeverity>
     <checkstyle.console>true</checkstyle.console>
-    <checkstyle.maxAllowedViolations>5</checkstyle.maxAllowedViolations>
+    <checkstyle.maxAllowedViolations>500000</checkstyle.maxAllowedViolations>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <checkstyle.config.location>google_checks.xml</checkstyle.config.location>
   </properties>
